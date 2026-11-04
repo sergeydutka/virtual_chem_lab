@@ -25,12 +25,12 @@ var species = {
             },
             {
                 "id": 3,
-                "name": "NaNO<sub>3</sub>",
+                "name": "Na<sub>2</sub>SO<sub>4</sub>",
+                "enthalpy": -1387.08,
+                "entropy": 149.58,
                 "state": "s",
-                "enthalpy": -458.35913872806526,
-                "entropy": 121.36118129963981,
-                "density": 2.261,
-                "molecularWeight": 84.997
+                "density": 2.68,
+                "molecularWeight": 149.58
             },
             {
                 "id": 4,
@@ -41,40 +41,42 @@ var species = {
             },
             {
                 "id": 5,
-                "name": "NO<sub>3</sub><sup>-</sup>",
-                "enthalpy": -205.0,
-                "entropy": 146.4,
-                "molecularWeight": 62.01
+                "name": "SO<sub>4</sub><sup>2-</sup>",
+                "enthalpy": -907.51,
+                "entropy": 17.15,
+                "molecularWeight": 96.07
             },
             {
                 "id": 6,
-                "name": "K<sup>+</sup>",
-                "enthalpy": -257.51623678712923,
-                "entropy": 91.22701123467536,
-                "molecularWeight": 39.10
+                "name": "BaCl<sub>2</sub>",
+                "enthalpy": -859.17,
+                "entropy": 123.66,
+                "state": "s",
+                "density": 3.856,
+                "molecularWeight": 208.23
             },
             {
                 "id": 7,
-                "name": "Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>",
-                "enthalpy": -1490.3,
-                "entropy": 261.9,
-                "hue": 49,
-                "saturation": 87,
-                "value": 100,
-                "colorConcentration": 0.1,
-                "molecularWeight": 216
+                "name": "Ba<sup>2+</sup>",
+                "enthalpy": -537.64,
+                "entropy": 9.6,
+                "molecularWeight": 137.33
             },
             {
                 "id": 8,
-                "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
-                "enthalpy": -2079.395416501965,
-                "entropy": 211.11823665401621,
+                "name": "Cl<sup>-</sup>",
+                "enthalpy": -167.16,
+                "entropy": 56.5,
+                "molecularWeight": 35.45
+            },
+            {
+                "id": 9,
+                "name": "BaSO<sub>4</sub>",
+                "enthalpy": -1473.2,
+                "entropy": 432.2,
                 "state": "s",
-                "hue": 0,
-                "saturation": 100,
-                "value": 85,
-                "colorConcentration": 0.03,
-                "molecularWeight": 294.18
+                "density": 4.5,
+                "molecularWeight": 233.39
             }
         ]
     }

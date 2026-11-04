@@ -1,117 +1,71 @@
 var solutions = {
-  "FILESYSTEM": {
-    "DIRECTORY": [
-      {
-        "name": "stockroom",
+    "FILESYSTEM": {
         "DIRECTORY": [
-          {
-            "name": "Розчинники",
-            "SOLUTION": [
-              {
-                "name": "H<sub>2</sub>O",
-                "description": "Дистильована вода",
-                "volume": "1.0",
-                "vessel": "3LCarboy",
-                "species":
-                  [
+            {
+                "name": "stockroom",
+                "SOLUTION": [
                     {
-                      "id": 0
-                    }
-                  ]
-              },
-              {
-                "name": "C<sub>2</sub>H<sub>5</sub>OH",
-                "description": "Етанол",
-                "volume": "1.0",
-                "vessel": "2500mLBottle",
-                "species":
-                  [
+                        "name": "H<sub>2</sub>O",
+                        "description": "Дистильована вода",
+                        "volume": "1.0",
+                        "vessel": "3LCarboy",
+                        "species":
+                        [
+                          { 
+                            "id": 0
+                          }
+                        ]
+                    },
                     {
-                      "id": 3
-                    }
-                  ]
-              },
-              {
-                "name": "WhiteSpirit",
-                "description": "Бензин-розчинник",
-                "volume": "1.0",
-                "vessel": "2500mLBottle",
-                "species":
-                  [
+                        "name": "CaCl<sub>2</sub>",
+                        "description": "Кальцій хлорид",
+                        "vessel": "SolidBottle",
+                        "species":
+                        [
+                          { 
+                            "id": 3,
+                            "amount": 0.009010145424
+                          }
+                        ]
+                    },
                     {
-                      "id": 4
-                    }
-                  ]
-              }
-            ]
-          },
-          {
-            "name": "Розчинні речовини",
-            "SOLUTION": [
-              {
-                "name": "I<sub>2</sub>",
-                "description": "Йод",
-                "vessel": "SolidBottle",
-                "species":
-                  [
+                        "name": "Na<sub>2</sub>CO<sub>3</sub>",
+                        "description": "Натрій карбонат",
+                        "vessel": "SolidBottle",
+                        "species":
+                        [
+                          { 
+                            "id": 6,
+                            "amount": 0.009434941362
+                          }
+                        ]
+                    },
                     {
-                      "id": 3,
-                      "amount": 0.1
-                    }
-                  ]
-              },
-              {
-                "name": "Paraffin",
-                "description": "Парафін",
-                "vessel": "SolidBottle",
-                "species":
-                  [
+                        "name": "NH<sub>4</sub>NO<sub>3</sub>",
+                        "description": "Амоній нітрат",
+                        "vessel": "SolidBottle",
+                        "species":
+                        [
+                          { 
+                            "id": 9,
+                            "amount": 0.01249375312344
+                          }
+                        ]
+                    },
                     {
-                      "id": 3,
-                      "amount": 0.1
+                        "name": "NaOH",
+                        "description": "Натрій гідроксид",
+                        "vessel": "SolidBottle",
+                        "species":
+                        [
+                          { 
+                            "id": 12,
+                            "amount": 0.025001812631416
+                          }
+                        ]
                     }
-                  ]
-              },
-              {
-                "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
-                "description": "Калій дихромат",
-                "vessel": "SolidBottle",
-                "species":
-                  [
-                    {
-                      "id": 3,
-                      "amount": 0.1
-                    }
-                  ]
-              },
-              {
-                "name": "IndanthroneBlue",
-                "description": "Харчовий барвник (синій)",
-                "vessel": "SolidBottle",
-                "species":
-                  [
-                    {
-                      "id": 3,
-                      "amount": 0.1
-                    }
-                  ]
-              },
-              {
-                "name": "C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>",
-                "description": "Цукор",
-                "vessel": "SolidBottle",
-                "species":
-                  [
-                    {
-                      "id": 3,
-                      "amount": 0.1
-                    }
-                  ]
-              }
-            ]
-          }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 }

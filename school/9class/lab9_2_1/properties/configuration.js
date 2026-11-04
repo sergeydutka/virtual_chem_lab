@@ -1,5 +1,5 @@
 var configuration = {
-    "title": "Виготовлення водних розчинів із заданими масовими частками розчинених речовин",
+    "title": "Розв’язування експериментальної задачі",
     "solutionModellers": { "specificHeat": "solvent2" },
     "solutionViewers": [
         {

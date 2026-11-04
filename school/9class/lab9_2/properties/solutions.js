@@ -7,7 +7,7 @@ var solutions = {
                     {
                         "name": "H<sub>2</sub>O",
                         "description": "Дистильована вода",
-                        "volume": "1.0",
+                        "volume": "3.0",
                         "vessel": "3LCarboy",
                         "species":
                         [
@@ -17,50 +17,33 @@ var solutions = {
                         ]
                     },
                     {
-                        "name": "CaCl<sub>2</sub>",
-                        "description": "Кальцій хлорид",
+                        "name": "NaNO<sub>3</sub>",
+                        "description": "Натрій нітрат",
                         "vessel": "SolidBottle",
                         "species":
                         [
                           { 
                             "id": 3,
-                            "amount": 0.009010145424
+                            "amount": 0.11765121122
                           }
                         ]
                     },
                     {
-                        "name": "Na<sub>2</sub>CO<sub>3</sub>",
-                        "description": "Натрій карбонат",
-                        "vessel": "SolidBottle",
+                        "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+                        "description": "Калій дихромату(10%)",
+                        "volume": "0.1",
                         "species":
                         [
+                          { 
+                            "id": 0
+                          },
                           { 
                             "id": 6,
-                            "amount": 0.009434941362
-                          }
-                        ]
-                    },
-                    {
-                        "name": "NH<sub>4</sub>NO<sub>3</sub>",
-                        "description": "Амоній нітрат",
-                        "vessel": "SolidBottle",
-                        "species":
-                        [
+                            "amount": 0.033992793528
+                          },
                           { 
-                            "id": 9,
-                            "amount": 0.01249375312344
-                          }
-                        ]
-                    },
-                    {
-                        "name": "NaOH",
-                        "description": "Натрій гідроксид",
-                        "vessel": "SolidBottle",
-                        "species":
-                        [
-                          { 
-                            "id": 12,
-                            "amount": 0.025001812631416
+                            "id": 7,
+                            "amount": 0.016996396764
                           }
                         ]
                     }

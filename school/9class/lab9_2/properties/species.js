@@ -25,81 +25,56 @@ var species = {
             },
             {
                 "id": 3,
-                "name": "CaCl<sub>2</sub>",
+                "name": "NaNO<sub>3</sub>",
                 "state": "s",
-                "enthalpy": -795.7,
-                "entropy": 291.5266038441876,
-                "density": 2.15,
-                "molecularWeight": 110.986
+                "enthalpy": -458.35913872806526,
+                "entropy": 121.36118129963981,
+                "density": 2.261,
+                "molecularWeight": 84.997
             },
             {
                 "id": 4,
-                "name": "Ca<sup>2+</sup>",
-                "enthalpy": -542.83,
-                "entropy": -53.1,
-                "molecularWeight": 40.08
-            },
-            {
-                "id": 5,
-                "name": "Cl<sup>-</sup>",
-                "enthalpy": -167.16,
-                "entropy": 56.5,
-                "molecularWeight": 35.45
-            },
-            {
-                "id": 6,
-                "name": "Na<sub>2</sub>CO<sub>3</sub>",
-                "state": "s",
-                "enthalpy": -1162,
-                "entropy": -90.6,
-                "density": 2.54,
-                "molecularWeight": 105.989
-            },
-            {
-                "id": 7,
                 "name": "Na<sup>+</sup>",
                 "enthalpy": -240.12,
                 "entropy": 59.0,
                 "molecularWeight": 22.99
             },
             {
-                "id": 8,
-                "name": "CO<sub>3</sub><sup>2-</sup>",
-                "enthalpy": -677.14,
-                "entropy": -156.8741463912882,
-                "molecularWeight": 60.01
-            },
-            {
-                "id": 9,
-                "name": "NH<sub>4</sub>NO<sub>3</sub>",
-                "state": "s",
-                "enthalpy": -363.91,
-                "entropy": 91.13323219806773,
-                "density": 1.725,
-                "molecularWeight": 80.04
-            },
-            {
-                "id": 10,
-                "name": "NH<sub>4</sub><sup>+</sup>",
-                "enthalpy": -132.51,
-                "entropy": 113.4,
-                "molecularWeight": 18.042
-            },
-            {
-                "id": 11,
+                "id": 5,
                 "name": "NO<sub>3</sub><sup>-</sup>",
                 "enthalpy": -205.0,
                 "entropy": 146.4,
                 "molecularWeight": 62.01
             },
             {
-                "id": 12,
-                "name": "NaOH",
+                "id": 6,
+                "name": "K<sup>+</sup>",
+                "enthalpy": -257.51623678712923,
+                "entropy": 91.22701123467536,
+                "molecularWeight": 39.10
+            },
+            {
+                "id": 7,
+                "name": "Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>",
+                "enthalpy": -1490.3,
+                "entropy": 261.9,
+                "hue": 49,
+                "saturation": 87,
+                "value": 100,
+                "colorConcentration": 0.1,
+                "molecularWeight": 216
+            },
+            {
+                "id": 8,
+                "name": "K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>",
+                "enthalpy": -2079.395416501965,
+                "entropy": 211.11823665401621,
                 "state": "s",
-                "enthalpy": -425.8,
-                "entropy": 64.46,
-                "density": 1.04,
-                "molecularWeight": 39.9971
+                "hue": 0,
+                "saturation": 100,
+                "value": 85,
+                "colorConcentration": 0.03,
+                "molecularWeight": 294.18
             }
         ]
     }
