@@ -30,7 +30,7 @@ var species = {
                 "entropy": 149.58,
                 "state": "s",
                 "density": 2.68,
-                "molecularWeight": 149.58
+                "molecularWeight": 142.04
             },
             {
                 "id": 4,

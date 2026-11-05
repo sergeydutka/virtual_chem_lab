@@ -24,7 +24,7 @@ var solutions = {
                   [
                     {
                       "id": 3,
-                      "amount": 0.1
+                      "amount": 0.070403
                     }
                   ]
               },
@@ -36,7 +36,7 @@ var solutions = {
                   [
                     {
                       "id": 6,
-                      "amount": 0.1
+                      "amount": 0.048024
                     }
                   ]
               }
